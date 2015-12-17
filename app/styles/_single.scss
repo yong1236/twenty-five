@@ -1,0 +1,163 @@
+
+.entry-single{
+  .entry-header{
+    margin-top: 30px;
+
+    .entry-title{
+      text-align: center;
+
+      h1, h2, h3{
+      }
+    }
+  }
+
+  .entry-meta{
+    height: 28px;
+    line-height: 28px;
+    border-bottom: dotted 1px #D8D8D8;
+    margin: 0 15px;
+    padding: 0 10px;
+
+    .meta-item{
+      font-size: 12px;
+      color: #888888;
+
+      a{
+        color: #888888;
+        text-decoration: none;
+
+        :hover {
+          color: $color-link-active;
+        }
+      }
+
+    }
+
+    .author{
+      .meta-item{
+        margin-right: 10px;
+      }
+    }
+    .comments{
+      .meta-item{
+        margin-left: 10px;
+      }
+    }
+  }
+
+  .entry-tag{
+    margin: 0 15px;
+    padding: 0 10px;
+    height: 28px;
+
+    a{
+      display: inline-block;
+      float: left;
+      margin: 5px 10px 5px 0;
+
+      font-size: 12px;
+      padding: 1px 8px;
+      background-color: #9F9F9F;
+      color: #ffffff;
+      border-radius: 2px;
+    }
+  }
+
+  .entry-content{
+    margin: 30px 15px;
+
+    h1, h2, h3, h4, h5, h6{
+      //border-left: 3px solid #880000;
+    }
+  }
+
+  .entry-footer{
+    margin: 0 15px 30px 15px;
+  }
+}
+
+.comments-area{
+  padding-left: 30px;
+  padding-right: 30px;
+
+  .comments-title{
+    font-size: 14px;
+    color: #999999;
+    //height: 40px;
+    line-height: 40px;
+    border-bottom: solid 1px #ECECEC;
+    position: relative;
+    margin-top: 4px;
+    font-weight: normal;
+    margin-bottom: 0px;
+  }
+
+  .comment-list{
+    list-style: none;
+    padding-left: 0;
+
+    .comment{
+      padding: 20px 0 8px;
+
+    }
+
+    .comment-meta{
+      font-size: 12px;
+      color: #888888;
+
+      a{
+        color: #888888;
+      }
+
+      .comment-author{
+        //color: red;
+        a, b{
+          color: #337ab7;
+        }
+      }
+    }
+
+    .comment-content{
+      font-size: 13px;
+      color: #666666;
+    }
+    .reply{
+      font-size: 12px;
+      border-bottom: dashed 1px #ECECEC;
+
+      a{
+        color: #888888;
+      }
+    }
+
+    .children{
+      list-style: none;
+      padding-left: 40px;
+    }
+  }
+
+  .comment-respond{
+    .comment-reply-title{
+      height: 30px;
+      line-height: 30px;
+      margin-top: 21px;
+
+      font-size: 24px;
+      color: #D55252;
+      font-weight: normal;
+      font-family: "microsoft yahei";
+      margin-top: 0px;
+    }
+
+    .comment-form-comment{
+      label{
+        display: none;
+      }
+      textarea{
+        height: 80px;
+        width: 100%;
+        border-color: #DDDDDD;
+      }
+    }
+  }
+}
